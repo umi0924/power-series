@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# 幂级数与泰勒级数 (Power Series & Taylor Series)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+本模块旨在提供幂级数与泰勒级数的核心理论、标准展开字典以及结构化的解题算法。请根据学习需求选择进入以下板块：
 
-## Commands
+### [1. 阅读材料 (Reading)](reading.md)
+* **内容**：泰勒级数的多项式逼近原理，及其在工程近似计算和误差分析中的拓展背景。
+* **用途**：用于在掌握基础计算工具后，加深对“用多项式逼近超越函数”这一核心数学思想的理解。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
+### [2. 理论速查 (Review)](review.md)
+* **内容**：汇总幂级数收敛半径与收敛域的计算法则，以及常用函数（如 $e^x$, $\sin x$, $\ln(1+x)$ 等）的标准麦克劳林展开式。
+* **用途**：作为公式字典，用于日常解题时快速核对展开式及收敛边界条件。
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### [3. 四大题型解法 (Strategy)](strategy.md)
+* **内容**：提炼“收敛区间求解”、“已知级数构造”、“求高阶导数”及“泰勒级数求极限”四大经典题型的算法化解题步骤。
+* **用途**：作为实战指南，用于在面对复杂计算题时，直接调用标准化的处理流程，避免盲目推导。
+
